@@ -14,4 +14,10 @@ obj 2: include bootstrap locally and by using a cdn
 
 obj 3: use common bootstrap components like navs and buttons
 
+  you can also layer your own stylings, and colors
+
 obj 4: get comfortable using the bootstrap grid system  
+
+  the grid system of bootstrap has to be the most powerful thing about the api
+  the grid maxes out at 12 columns
+  
