@@ -13,16 +13,24 @@
     <nav class="navbar navbar-default"> <!-- this will place koffee to the left on the nav bar -->
       <div class="container">           <!-- putting the contaier within the navbar contains the content, instead of smooshing in the actual navbar itself. which wouldnt be visually appealing -->
       <div class="navbar-header">       <!-- this makes 'Koffee' appear bigger in the nav, this makes sense because it is the brand name -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a href="#"class="navbar-brand">Koffee</a>  <!-- this will be placed on the left and is also a link-->
       </div>
-      <ul class="nav navbar-nav">      <!-- this will begin the addition of other links on the nav bar and it will be placed to the just-right of the brand 'koffee' and font will look smaller as well because it is not the brand  -->
-        <li><a href="About.html">About</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right"> <!-- this will be the right side of the nav bar -->
-        <li><a href="#">Sign up</a></li>
-        <li><a href="#">Login</a></li>
-      </ul>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <!-- this is the styling pulled from bootstrap frame work that allows collapsing of the navbar-->
+        <ul class="nav navbar-nav">      <!-- this will begin the addition of other links on the nav bar and it will be placed to the just-right of the brand 'koffee' and font will look smaller as well because it is not the brand  -->
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right"> <!-- this will be the right side of the nav bar -->
+          <li><a href="#">Sign up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+        </div>
       </div>
     </nav>
 
