@@ -30,24 +30,30 @@
 
 <div class="container">
   <div class="row">
-      <div class="col-sm-2 col-md-4 col-lg-2 pink">COL LG 2</div>
-      <div class="col-sm-2 col-md-4 col-lg-8 pink">COL LG 8</div>
-      <div class="col-sm-2 col-md-4 col-lg-2 pink">COL LG 2</div>
+      <div class="col-sm-6 col-md-3 pink"><!-- we can erase col-lg-3 because if you set it for col-md-3 you it gets granfathered in.. -->
+        <div class="row">
+          <div class="col-lg-6">first half</div>  <!-- this is a nested grid.. which is splitting one defined grid.. and placing another row inside and then defining it.. you can define it between  1 - 12 just like in a normal grid -->
+          <div class="col-lg-6">Other half</div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3 pink">TOUR DATE!</div>  <!-- left the col-lg-3 here just to show that nothing changes -->
+      <div class="col-sm-6 col-md-3 col-lg-3 pink">TOUR DATE!</div>
+      <div class="col-sm-6 col-md-3 col-lg-3 pink">TOUR DATE!</div>
   </div>
-  <div class="row">
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-    <div class="col-lg-1 blue">COL LG 1</div>
-  </div>
+  <!-- <div class="row">
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 blue">COL LG 1</div>
+  </div> -->
 </div>
 
 
