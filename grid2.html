@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style type="text/css">
+      .pink {
+        background: pink;
+        border: 1px solid red;
+      }
+      body {
+        background-color: grey;
+      }
+    </style>
+  </head>
+
+  <body>
+
+<!--  ====================================  -->
+<!--              OBJECTIVES                -->
+<!--  1. Understand Purpose of Grid System  -->
+<!--  2. Understand the 4 different sizes   -->
+<!--  3. Write Nested Grids                 -->
+<!--  ====================================  -->
+
+<div class="container">
+  <div class="row">
+          <div class="col-lg-2 pink">COL LG 6</div>  <!-- this is a nested grid.. which is splitting one defined grid.. and placing another row inside and then defining it.. you can define it between  1 - 12 just like in a normal grid -->
+          <div class="col-lg-8 pink">COL LG 6</div>
+          <div class="col-lg-2 pink">COL LG 6</div>
+        </div>
+      </div>
+  </body>
+</html>
